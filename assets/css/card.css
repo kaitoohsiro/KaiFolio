@@ -1,0 +1,65 @@
+#message{
+    width: 98%;
+    height: 300px;
+    overflow: hidden;
+    text-align:right;
+}
+#message h1 {
+    width: auto;
+    padding-top: 50%;
+    height: 100%;
+}
+
+
+
+@keyframes loop {
+    0% {
+        transform: translateX(110%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes loop2 {
+    0% {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-200%);
+    }
+}
+#message h1:first-child {
+    animation: loop 10s -20s linear infinite;
+}
+
+#message h1:last-child {
+    animation: loop2 10s linear infinite;
+}
+
+
+#menu {
+    width: 100%;
+}
+#menu .card:nth-child(1) {
+    margin-top:30px;
+}
+
+#menu .card {
+    display:block;
+    background:rgb(179, 232, 245);
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+#menu .card .title_wrap {
+    color: #000;
+    padding-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#menu .card .img_wrap img {
+
+    justify-content: center;
+    width: 100%;
+    margin: 20px auto;
+}
