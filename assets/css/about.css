@@ -57,6 +57,11 @@ opacity: 0;
         animation: 1s anim-lightspeed-in ease forwards;
 }
 
+.chart--dev .chart__bar:nth-of-type(7) {
+-webkit-animation-delay: 1.9s;
+        animation-delay: 1.9s;
+}
+
 .chart--dev .chart__bar:nth-of-type(6) {
 -webkit-animation-delay: 1.7s;
         animation-delay: 1.7s;
@@ -118,3 +123,20 @@ color: white;
 }
 }
 /*# sourceMappingURL=scss.css.map */
+
+
+
+
+#field {
+        background: #fff;
+        margin: -8px;
+        color: #000;
+        text-align: center;
+        padding:50px;
+}
+#field h1 {
+        padding-top:10px;
+}
+#field p {
+        color: rgb(80, 99, 30);
+}
