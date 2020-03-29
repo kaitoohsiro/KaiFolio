@@ -36,20 +36,17 @@
 #message h1:last-child {
     animation: loop2 10s linear infinite;
 }
-
-
 #menu {
-    width: 100%;
+    margin-top: 50px;
+    text-align: center;
 }
-#menu .card:nth-child(1) {
-    margin-top:30px;
-}
-
 #menu .card {
-    display:block;
+    margin: 20px;
+    display: inline-block;
     background:rgb(179, 232, 245);
     border-radius: 10px;
-    text-align: center;
+    height: 400px;
+    width: 300px;
     text-decoration: none;
 }
 #menu .card .title_wrap {
@@ -60,6 +57,25 @@
 #menu .card .img_wrap img {
 
     justify-content: center;
-    width: 100%;
+    width: 300px;
+    height: 200px;
     margin: 20px auto;
+}
+
+@media screen and (max-width:375px) {
+    #menu {
+        width: 100%;
+    }
+    #menu .card:nth-child(1) {
+        margin-top:30px;
+    }
+
+    #menu .card {
+        display:block;
+        width: 100%;
+        margin: auto;
+    }
+    #menu .card .img_wrap img {
+        width: 100%;
+    }
 }
