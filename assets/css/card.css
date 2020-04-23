@@ -10,6 +10,18 @@
     height: 100%;
 }
 
+.card-hobby{
+    text-align: center;
+}
+.card-hobby img {
+    display: inline-block;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    width: 40vw;
+    border-radius: 30px;
+}
+
 
 
 @keyframes loop {
@@ -64,7 +76,6 @@
 #blogMain .blog_card {
     width: 40%;
     margin: 0;
-    
     display: inline-block;
     border-radius: 10px;
 }
@@ -81,6 +92,11 @@
     }
     iframe {
         height: 65vh;
+    }
+
+    .card-hobby img {
+        display: block;
+        width: 80vw;
     }
 }
 
